@@ -4,19 +4,20 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="poclib45\MyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="pocmonoconsole\Program.cs">
     <Files>
-      <File FileName="pocmonoconsole\Program.cs" Line="11" Column="7" />
+      <File FileName="pocmonoconsole\Program.cs" Line="19" Column="33" />
       <File FileName="pocmonoconsole\packages.config" Line="1" Column="1" />
       <File FileName="pocmonoconsole\pocmonoconsole.csproj" Line="1" Column="1" />
-      <File FileName="poclib45\MyClass.cs" Line="1" Column="1" />
+      <File FileName="poclib45\MQTest.cs" Line="43" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="pocmonoconsole" expanded="True">
-            <Node name="poclib45" expanded="True">
-              <Node name="MyClass.cs" selected="True" />
+            <Node name="poclib45" expanded="True" />
+            <Node name="pocmonoconsole" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
