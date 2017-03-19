@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{7B08159F-A002-4E2B-B0F7-F6F1DE6405BC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>pocmonoconsole</RootNamespace>
+    <AssemblyName>pocmonoconsole</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="amqmdmsg">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\amqmdmsg.dll</HintPath>
+    </Reference>
+    <Reference Include="amqmdnet">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\amqmdnet.dll</HintPath>
+    </Reference>
+    <Reference Include="amqmdnm">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\amqmdnm.dll</HintPath>
+    </Reference>
+    <Reference Include="amqmdnsp">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\amqmdnsp.dll</HintPath>
+    </Reference>
+    <Reference Include="amqmdxcs">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\amqmdxcs.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Admin">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Admin.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Admin.Objects">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Admin.Objects.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Client.Impl">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Client.Impl.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Client.WMQ">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Client.WMQ.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Comms">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Comms.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Comms.RMM">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Comms.RMM.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Comms.SSL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Comms.SSL.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Core">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Formats.JMF">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Formats.JMF.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Formats.MFP">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Formats.MFP.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Impl">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Impl.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Match">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Match.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.NLS">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.NLS.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Provider">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Provider.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.SIB">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.SIB.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.Util">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.XMS.WMQI">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.6\lib\net20\IBM.XMS.WMQI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\poclib45\poclib45.csproj">
+      <Project>{313B9904-199A-4A7C-805C-5032AE72FB3C}</Project>
+      <Name>poclib45</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{7B08159F-A002-4E2B-B0F7-F6F1DE6405BC}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="poclib45\MyClass.cs">
+    <Files>
+      <File FileName="pocmonoconsole\Program.cs" Line="11" Column="7" />
+      <File FileName="pocmonoconsole\packages.config" Line="1" Column="1" />
+      <File FileName="pocmonoconsole\pocmonoconsole.csproj" Line="1" Column="1" />
+      <File FileName="poclib45\MyClass.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="pocmonoconsole" expanded="True">
+            <Node name="poclib45" expanded="True">
+              <Node name="MyClass.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.pocmonoconsole PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

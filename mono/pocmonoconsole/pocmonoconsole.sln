@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pocmonoconsole", "pocmonoconsole\pocmonoconsole.csproj", "{7B08159F-A002-4E2B-B0F7-F6F1DE6405BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poclib45", "poclib45\poclib45.csproj", "{313B9904-199A-4A7C-805C-5032AE72FB3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B08159F-A002-4E2B-B0F7-F6F1DE6405BC}.Debug|x86.ActiveCfg = Debug|x86
+		{7B08159F-A002-4E2B-B0F7-F6F1DE6405BC}.Debug|x86.Build.0 = Debug|x86
+		{7B08159F-A002-4E2B-B0F7-F6F1DE6405BC}.Release|x86.ActiveCfg = Release|x86
+		{7B08159F-A002-4E2B-B0F7-F6F1DE6405BC}.Release|x86.Build.0 = Release|x86
+		{313B9904-199A-4A7C-805C-5032AE72FB3C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{313B9904-199A-4A7C-805C-5032AE72FB3C}.Debug|x86.Build.0 = Debug|Any CPU
+		{313B9904-199A-4A7C-805C-5032AE72FB3C}.Release|x86.ActiveCfg = Release|Any CPU
+		{313B9904-199A-4A7C-805C-5032AE72FB3C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
